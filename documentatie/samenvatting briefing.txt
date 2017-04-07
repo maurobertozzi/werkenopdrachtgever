@@ -1,0 +1,34 @@
+contactpersoon : martijn smit
+op een overzichtelijke en gebruiksvriendlijke manier data visualiseren
+een aantal specifieke variabelen
+Teamperformance en indivudueleperformance
+verschil kunnen meten tussen bepalen maanden en sprints.
+Gebruiksvriendelijke manier van kunnen switchen van het kunnen kijken
+naar persoonlijke performance en groepsperformance
+responsive maken voor mobile
+google graph/charts
+Mogelijkheiden bekijken voor het visualiseren van de date
+schetsen maken
+wireframes
+developers: goed op letten wat voor functionaliteiten de vormgevers
+erin zetten
+duidelijk maken hoe we wat gaan maken
+
+Bij 2e contact:
+Wireframe,
+Schetsen,
+Klein begin met ontwikkelen
+Hoe we wat gaan maken
+Mogelijkheden bekijken
+Basisopzet verwerken van de data
+ERD, basis model
+Naam bedenken x
+Backlog vullen.
+Idee technisch uitwerken 
+
+
+Screenshots van excel voor een algemeen idee.
+schetsen voor een idee.
+
+Voor vincent:
+Data naar ons sturen 
