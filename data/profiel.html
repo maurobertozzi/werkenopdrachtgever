@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stijl.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="java.js"> </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/css/bootstrap-datepicker.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/js/bootstrap-datepicker.js"></script>
+<title>Data Performance App</title>
+</head>
+<body>
+<span style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776;</span>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="charts/home.html">Home</a>
+  <a href="personalcharts.html">Personal</a>
+  <a href="profiel.html">werknemers</a>
+  <a href="#">Acount</a>
+  <a href="cms1/cms_show.php">CMS</a>
+  <a href="index.html">Logout</a>
+</div>
+
+
+    
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger"></label>
+
+<div class="site-wrap container text-center">
+    <script type="text/javascript">
+        $(function () {
+            $('#datetimepicker10').datetimepicker({
+                viewMode: 'years',
+                format: 'MM/YYYY'
+            });
+        });
+    </script>
+    <div class="container text-center">
+     <div class="right">
+      <h3>Datum:</h3>
+      <input class="date-own form-control" style="width: auto;" type="text">
+     
+        
+	<script type="text/javascript">
+	    $('.date-own').datepicker({
+	       minViewMode: 1,
+	       format: 'yyyy-mm'
+	     });
+	</script>
+     </div>
+       <ul class="collection">
+    <li class="collection-item avatar">
+      <img src="images/jobs.jpg" alt="" class="circle">
+      <div class="title">Steve Jobs</div>
+      <p>First Line <br>
+         Second Line
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+    <li class="collection-item avatar">
+      <img src="images/Marie.jpg" alt="" class="circle">
+      <div class="title">Marie Forleo</div>
+      <p>First Line <br>
+         Second Line
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">star</i></a>
+    </li>
+    <li class="collection-item avatar">
+      <img src="images/Kim.jpg" alt="" class="circle">
+      <div class="title">Kim Kardashian</div>
+      <p>First Line <br>
+         Second Line
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+    <li class="collection-item avatar">
+      <img src="images/lebron.jpg" alt="" class="circle">
+      <div class="title">LeBron James</div>
+      <p>First Line <br>
+         Second Line
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+    <li class="collection-item avatar">
+      <img src="images/zidane.jpg" alt="" class="circle">
+      <div class="title">Zinedine Zidane</div>
+      <p>First Line <br>
+         Second Line
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+    <li class="collection-item avatar">
+      <img src="images/carter.jpg" alt="" class="circle">
+      <div class="title">Shawn Corey Carter</div>
+      <p>First Line <br>
+         Second Line
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+     <li class="collection-item avatar">
+      <img src="images/kroes.jpg" alt="" class="circle">
+      <div class="title">Doutze Kroes</div>
+      <p>First Line <br>
+         Second Line
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+    <li class="collection-item avatar">
+      <img src="images/bruce.jpg" alt="" class="circle">
+      <div class="title">Bruce Lee</div>
+      <p>First Line <br>
+         Second Line
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+    <li class="collection-item avatar">
+      <img src="images/nicki.jpg" alt="" class="circle">
+      <div class="title">Onika Tanya Maraj</div>
+      <p>First Line <br>
+         Second Line
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+  </ul>
+        
+  <ul class="pagination">
+    <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+    <li class="active"><a href="#!">1</a></li>
+    <li class="waves-effect"><a href="#!">2</a></li>
+    <li class="waves-effect"><a href="#!">3</a></li>
+    <li class="waves-effect"><a href="#!">4</a></li>
+    <li class="waves-effect"><a href="#!">5</a></li>
+    <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+  </ul>
+        
+</div>
+</div>
+
+</body>
+</html>
+    

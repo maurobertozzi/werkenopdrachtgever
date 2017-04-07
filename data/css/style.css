@@ -1,0 +1,206 @@
+body {
+    font-family: "Lato", sans-serif;
+   /* transition: background-color .5s;
+    background-image: linear-gradient(150deg, rgb(254,255,255) 20%,rgb(162,232,237) 40%,rgb(126,212,218) 90%);
+    background-image: fixed;*/
+    background: url(../background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* navigatie */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #81D4D9;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #C2E7F7;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+/* Charts team */
+
+#piechart {
+float: left;
+width: 50%;
+height: 40em;
+max-height: 700px;
+}
+
+#columnchart_values {
+float: right;
+width: 50%;
+height: 40em;
+max-height: 700px;
+}
+
+@media (max-width: 1024px) {
+    #piechart {
+    clear: left;
+    width: 100%;
+max-height: 400px;
+}
+
+#columnchart_values {
+clear: right;
+width: 100%;
+max-height: 400px;
+}
+}
+/* Charts team */
+
+#columnchart_values {
+float: left;
+width: 50%;
+height: 40em;
+max-height: 700px;
+}
+
+#columnchart_values2 {
+float: right;
+width: 50%;
+height: 40em;
+max-height: 700px;
+}
+
+@media (max-width: 1024px) {
+    #columnchart_values {
+    clear: left;
+    width: 100%;
+max-height: 400px;
+}
+
+#columnchart_values2 {
+clear: right;
+width: 100%;
+max-height: 400px;
+}
+}
+
+/* ik weet niet wat de style hieronder is */
+
+.container {
+    padding-right: 5.000em;
+    padding-left: 5.000em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.form-control{
+        margin: 0 !important;
+}
+
+ .collection {
+    background-color: #fff;
+    margin: .5rem 0 1rem 0;
+    border: 1px solid #e0e0e0;
+    border-radius: 9px;
+    overflow: hidden;
+    position: relative;
+}
+
+.circle {
+    border-radius: 50%;
+}
+ul{
+    text-decoration: none;
+}
+li{
+    list-style-type:none;
+
+}
+.collection .collection-item .avatar i.circle {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 42px;
+    color: #fff;
+    background-color: #999;
+    text-align: center;
+}
+
+
+.collection .collection-item {
+    background-color: #fff;
+    line-height: 1.5rem;
+    padding: 10px 20px;
+    margin: 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.collection .collection-item.avatar .circle {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    overflow: hidden;
+    left: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.collection .collection-item:last-child {
+    border-bottom: none;
+}
+
+.collection .collection-item.avatar {
+    min-height: 84px;
+    padding-left: 72px;
+    position: relative;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding-right: 15%;
+        padding-left: 15%;
+        margin-right: auto;
+        margin-left: auto;
+}
+ .collection {
+    min-width: 250px;
+    background-color: #fff;
+    margin: .5rem 0 1rem 0;
+    border: 1px solid #e0e0e0;
+    border-radius: 9px;
+    overflow: hidden;
+    position: relative;
+}
+
+  
+}

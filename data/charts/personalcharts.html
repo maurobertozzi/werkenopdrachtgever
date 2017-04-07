@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Data app</title>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <script type="text/javascript" src="personalcharts.js"></script>
+  <link rel="icon" href="images/favicon.jpg" type="image/x-icon"/>
+  <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon"/>
+</head>
+<body>
+<span style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776;</span>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="home.html">Home</a>
+  <a href="personalcharts.html">Personal</a>
+  <a href="../werknemers.html">werknemers</a>
+    <a href="#">Acount</a>
+  <a href="../cms/cms_show.php">CMS</a>
+  <a href="../logreg.html">Logout</a>
+</div>
+<h1>Personal chart<h1>
+<div id="main">
+
+        <div id="columnchart_values"></div>
+        <div id="columnchart_values2"></div>
+      
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+
+
+</div>
+</body>
+</html>
+
